@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7a04744_6ef510b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-11-29T16:44:40Z",
+      "side": 1,
+      "message": "PS2: Fetch kernel repos to kernel-specific paths",
+      "revId": "faaeb007c2aa14d8750f82c6b4f12b4c14b329e4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
