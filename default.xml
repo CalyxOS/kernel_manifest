@@ -34,13 +34,20 @@
 
   <!-- oriole, raven -->
   <include name="snippets/raviole.xml" />
+  <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" />
   <!-- barbet -->
   <include name="snippets/barbet.xml" />
+  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" />
   <!-- redfin, bramble -->
   <include name="snippets/redbull.xml" />
+  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" />
   <!-- coral, flame, sunfish -->
   <include name="snippets/msm-4.14.xml" />
+  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" />
   <!-- crosshatch, blueline, bonito, sargo -->
   <include name="snippets/msm-4.9.xml" />
+  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" remote="gitlab" clone-depth="1" />
 
 </manifest>
