@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5f22ee6_c7ce9ea3",
+        "filename": "default.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-01T18:53:56Z",
+      "side": 1,
+      "message": "Why fork? redbull/barbet and raviole have differences here.\n\nWe may not use it, but I thought might as well fork it while I\u0027m at this. Empty right now.",
+      "revId": "3ff0e77863cbbb14fb2dcc058af630af7f55008f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5b2b965_63e18326",
+        "filename": "default.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-01T18:53:56Z",
+      "side": 1,
+      "message": "Why fork? This was the only repo without any tags.",
+      "revId": "3ff0e77863cbbb14fb2dcc058af630af7f55008f",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
