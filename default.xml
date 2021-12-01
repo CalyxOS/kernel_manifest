@@ -19,6 +19,9 @@
 
   <!-- Calyx forks -->
   <project path="build" name="CalyxOS/kernel_build" remote="gitlab" />
+  <project path="calyx/scripts" name="CalyxOS/scripts" remote="gitlab" >
+    <linkfile dest="build_kernel.sh" src="kernel/build_kernel.sh" />
+  </project>
   <project path="prebuilts/boot-artifacts" name="CalyxOS/platform_prebuilts_boot-artifacts" remote="gitlab" />
   <project path="prebuilts/gas/linux-x86" name="CalyxOS/platform_prebuilts_gas_linux-x86" clone-depth="1" remote="gitlab" />
 
