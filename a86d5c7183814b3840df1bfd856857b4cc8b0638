@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca0fa505_8eb20316",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-12-10T16:10:06Z",
+      "side": 1,
+      "message": "Needs 6932: Add a bash script that builds and copies kernel | https://review.calyxos.org/c/CalyxOS/scripts/+/6932",
+      "revId": "a86d5c7183814b3840df1bfd856857b4cc8b0638",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
