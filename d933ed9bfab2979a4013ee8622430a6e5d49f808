@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b971ce08_51588dc3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-05T20:03:22Z",
+      "side": 1,
+      "message": "7688: release: tag.sh: Only exclude manifest from tags | https://review.calyxos.org/c/CalyxOS/scripts/+/7688",
+      "revId": "d933ed9bfab2979a4013ee8622430a6e5d49f808",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
