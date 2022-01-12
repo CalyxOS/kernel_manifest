@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- android-gs-raviole-5.10-android12-d1 -->
-  <project path="raviole/aosp" name="kernel/common" groups="partner" revision="refs/tags/android-12.0.0_r0.26" />
+  <project path="raviole/aosp" name="CalyxOS/kernel_google_raviole-gki" remote="gitlab" />
   <project path="raviole/private/gs-google" name="CalyxOS/kernel_google_raviole" remote="gitlab" />
   <project path="raviole/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-12.0.0_r0.26" />
   <project path="raviole/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" revision="refs/tags/android-12.0.0_r0.26" />
