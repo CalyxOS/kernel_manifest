@@ -4,26 +4,26 @@
   <!-- android-gs-raviole-5.10-android12-d1 -->
   <project path="raviole/aosp" name="CalyxOS/kernel_google_raviole-gki" remote="gitlab" />
   <project path="raviole/private/gs-google" name="CalyxOS/kernel_google_raviole" remote="gitlab" />
-  <project path="raviole/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/display" name="kernel/google-modules/display" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/edgetpu" name="kernel/google-modules/edgetpu" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/fingerprint/goodix" name="kernel/google-modules/fingerprint/goodix" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/uwb" name="kernel/google-modules/uwb" groups="uwb" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/wlan/bcmdhd43752" name="kernel/google-modules/wlan/bcmdhd/bcm43752" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="partner" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/kernel/configs" name="kernel/configs" revision="refs/tags/android-12.0.0_r0.42" />
-  <project path="raviole/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="refs/tags/android-12.0.0_r0.42" />
+  <project path="raviole/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/display" name="kernel/google-modules/display" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/edgetpu" name="kernel/google-modules/edgetpu" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/fingerprint/goodix" name="kernel/google-modules/fingerprint/goodix" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/uwb" name="kernel/google-modules/uwb" groups="uwb" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/wlan/bcmdhd43752" name="kernel/google-modules/wlan/bcmdhd/bcm43752" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="partner" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/kernel/configs" name="kernel/configs" revision="refs/tags/android-s-v2-beta-3_r0.6" />
+  <project path="raviole/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="refs/tags/android-s-v2-beta-3_r0.6" />
 
 </manifest>
