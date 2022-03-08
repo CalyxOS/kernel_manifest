@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22eafb94_79f23626",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-08T23:34:42Z",
+      "side": 1,
+      "message": "Syncs, all repos have 12L pushed.",
+      "revId": "aec0b820c66b67211533bdb4a54825541e4e3974",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
