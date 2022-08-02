@@ -38,9 +38,10 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="partner" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" />
 
-  <!-- oriole, raven -->
+  <!-- oriole, raven, bluejay -->
   <include name="snippets/raviole.xml" />
   <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_bluejay-kernel" path="device/google/bluejay-kernel" remote="gitlab" clone-depth="1" />
   <!-- barbet -->
   <include name="snippets/barbet.xml" />
   <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" />
