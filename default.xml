@@ -38,6 +38,9 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="partner" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" />
 
+  <!-- bluejay -->
+  <include name="snippets/bluejay.xml" />
+  <project name="CalyxOS/device_google_bluejay-kernel" path="device/google/bluejay-kernel" remote="gitlab" clone-depth="1" />
   <!-- oriole, raven -->
   <include name="snippets/raviole.xml" />
   <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" />
