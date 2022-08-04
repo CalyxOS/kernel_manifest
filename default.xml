@@ -30,7 +30,7 @@
 
   <!-- Common -->
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" />
-  <project path="prebuilts-master/misc" name="platform/prebuilts/misc" groups="partner" />
+  <project path="prebuilts-master/misc" name="CalyxOS/platform_prebuilts_misc" groups="partner" remote="gitlab" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="partner" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" />
