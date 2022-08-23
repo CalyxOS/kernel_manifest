@@ -7,12 +7,12 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
-           revision="refs/heads/android12L" />
+           revision="refs/heads/android13" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
-           revision="refs/heads/android12L" />
-  <default revision="refs/tags/android-12.1.0_r0.34"
+           revision="refs/heads/android13" />
+  <default revision="refs/tags/android-13.0.0_r0.4"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
@@ -20,34 +20,42 @@
   <project path="manifest" name="CalyxOS/kernel_manifest" remote="gitlab" />
 
   <!-- Calyx forks -->
-  <project path="build" name="CalyxOS/kernel_build" remote="gitlab" />
+  <project path="build" name="CalyxOS/kernel_build" groups="partner" remote="gitlab" />
   <project path="calyx/scripts" name="CalyxOS/scripts" remote="gitlab" >
     <linkfile dest="build_kernel.sh" src="kernel/build_kernel.sh" />
     <linkfile dest="build_kernels.sh" src="kernel/build_kernels.sh" />
   </project>
-  <project path="prebuilts/boot-artifacts" name="CalyxOS/platform_prebuilts_boot-artifacts" remote="gitlab" />
-  <project path="prebuilts/gas/linux-x86" name="CalyxOS/platform_prebuilts_gas_linux-x86" clone-depth="1" remote="gitlab" />
+  <project path="prebuilts/boot-artifacts" name="CalyxOS/platform_prebuilts_boot-artifacts" groups="partner" remote="gitlab" />
 
   <!-- Common -->
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" />
-  <project path="prebuilts-master/misc" name="CalyxOS/platform_prebuilts_misc" groups="partner" remote="gitlab" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="partner" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" clone-depth="1" groups="partner" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" clone-depth="1" groups="partner" />
+  <project path="external/stardoc" name="platform/external/stardoc" clone-depth="1" groups="partner" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="partner" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="partner" >
+    <linkfile dest="build/prebuilts/build-tools" src="." />
+  </project>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="partner" >
+    <linkfile dest="prebuilts-master/clang/host/linux-x86" src="." />
+  </project>
+  <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="refs/tags/android-12.1.0_r0.35" groups="partner" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="partner" />
-  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="partner" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" groups="partner" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="partner" >
+    <linkfile dest="build/prebuilts/kernel-build-tools" src="." />
+  </project>
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" clone-depth="1" groups="partner" >
+    <linkfile dest="prebuilts-master/misc" src="." />
+  </project>
+  <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" clone-depth="1" groups="partner" />
 
-  <!-- bluejay -->
-  <include name="snippets/bluejay.xml" />
+  <!-- oriole, raven, bluejay -->
+  <include name="snippets/gs101.xml" />
   <project name="CalyxOS/device_google_bluejay-kernel" path="device/google/bluejay-kernel" remote="gitlab" clone-depth="1" />
-  <!-- oriole, raven -->
-  <include name="snippets/raviole.xml" />
   <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" />
-  <!-- barbet -->
-  <include name="snippets/barbet.xml" />
-  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" />
-  <!-- redfin, bramble -->
+  <!-- redfin, bramble, barbet -->
   <include name="snippets/redbull.xml" />
   <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" />
   <!-- coral, flame, sunfish -->
