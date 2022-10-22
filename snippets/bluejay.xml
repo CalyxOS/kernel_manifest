@@ -2,9 +2,9 @@
 <manifest>
 
   <!-- android-gs-bluejay-5.10-android12L-d2 -->
-  <project path="bluejay/aosp" name="CalyxOS/kernel_google_bluejay-gki" remote="gitlab" />
-  <project path="bluejay/private/gs-google" name="CalyxOS/kernel_google_bluejay" remote="gitlab" />
-  <project path="bluejay/private/devices/google/bluejay" name="CalyxOS/kernel_devices_google_bluejay" groups="partner,bluejay" remote="gitlab" >
+  <project path="bluejay/aosp" name="CalyxOS/kernel_google_bluejay-gki" remote="gitlab" revision="android12L" />
+  <project path="bluejay/private/gs-google" name="CalyxOS/kernel_google_bluejay" remote="gitlab" revision="android12L" />
+  <project path="bluejay/private/devices/google/bluejay" name="CalyxOS/kernel_devices_google_bluejay" groups="partner,bluejay" remote="gitlab" revision="android12L" >
     <linkfile dest="bluejay/private/gs-google/arch/arm64/boot/dts/google/devices/bluejay" src="dts" />
   </project>
   <project path="bluejay/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-12.1.0_r0.40" />

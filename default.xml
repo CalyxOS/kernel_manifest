@@ -7,11 +7,11 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
-           revision="refs/heads/android12L" />
+           revision="refs/heads/android13" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
-           revision="refs/heads/android12L" />
+           revision="refs/heads/android13" />
   <default revision="refs/tags/android-12.1.0_r0.34"
            remote="aosp"
            sync-j="4"
@@ -25,12 +25,12 @@
     <linkfile dest="build_kernel.sh" src="kernel/build_kernel.sh" />
     <linkfile dest="build_kernels.sh" src="kernel/build_kernels.sh" />
   </project>
-  <project path="prebuilts/boot-artifacts" name="CalyxOS/platform_prebuilts_boot-artifacts" remote="gitlab" />
-  <project path="prebuilts/gas/linux-x86" name="CalyxOS/platform_prebuilts_gas_linux-x86" clone-depth="1" remote="gitlab" />
+  <project path="prebuilts/boot-artifacts" name="CalyxOS/platform_prebuilts_boot-artifacts" remote="gitlab" revision="android12L" />
+  <project path="prebuilts/gas/linux-x86" name="CalyxOS/platform_prebuilts_gas_linux-x86" clone-depth="1" remote="gitlab" revision="android12L" />
 
   <!-- Common -->
   <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" />
-  <project path="prebuilts-master/misc" name="CalyxOS/platform_prebuilts_misc" groups="partner" remote="gitlab" />
+  <project path="prebuilts-master/misc" name="CalyxOS/platform_prebuilts_misc" groups="partner" remote="gitlab" revision="android12L" />
   <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="partner" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" />
@@ -40,20 +40,20 @@
 
   <!-- bluejay -->
   <include name="snippets/bluejay.xml" />
-  <project name="CalyxOS/device_google_bluejay-kernel" path="device/google/bluejay-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_bluejay-kernel" path="device/google/bluejay-kernel" remote="gitlab" clone-depth="1" revision="android12L" />
   <!-- oriole, raven -->
   <include name="snippets/raviole.xml" />
-  <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" revision="android12L" />
   <!-- barbet -->
   <include name="snippets/barbet.xml" />
-  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" revision="android12L" />
   <!-- redfin, bramble -->
   <include name="snippets/redbull.xml" />
-  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" revision="android12L" />
   <!-- coral, flame, sunfish -->
   <include name="snippets/msm-4.14.xml" />
-  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" />
-  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" revision="android12L" />
+  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" revision="android12L" />
   <!-- crosshatch, blueline, bonito, sargo -->
   <include name="snippets/msm-4.9.xml" />
   <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" />

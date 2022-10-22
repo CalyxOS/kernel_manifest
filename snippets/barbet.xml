@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- android-msm-barbet-4.19-android11-d2 -->
-  <project path="barbet/private/msm-google" name="CalyxOS/kernel_google_barbet" remote="gitlab" />
+  <project path="barbet/private/msm-google" name="CalyxOS/kernel_google_barbet" remote="gitlab" revision="android12L" />
   <project path="barbet/private/msm-google/arch/arm64/boot/dts/vendor" name="kernel/msm-extra/devicetree" groups="partner" revision="refs/tags/android-12.1.0_r0.34" />
   <project path="barbet/private/msm-google/arch/arm64/boot/dts/vendor/qcom/camera" name="kernel/msm-extra/camera-devicetree" groups="partner" revision="refs/tags/android-12.1.0_r0.34" />
   <project path="barbet/private/msm-google/arch/arm64/boot/dts/vendor/qcom/display" name="kernel/msm-extra/display-devicetree" groups="partner" revision="refs/tags/android-12.1.0_r0.34" />
