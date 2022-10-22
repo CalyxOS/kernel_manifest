@@ -22,6 +22,30 @@
       },
       "revId": "305f46991fab6e5ef4361d5091a1d2ca68993def",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b935f91_f59b1cb5",
+        "filename": "snippets/gs101.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-22T21:25:50Z",
+      "side": 1,
+      "message": "kernel_google_gs101 created",
+      "parentUuid": "527f2f2f_e59bd247",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 136
+      },
+      "revId": "305f46991fab6e5ef4361d5091a1d2ca68993def",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
