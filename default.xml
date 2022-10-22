@@ -71,12 +71,9 @@
   <!-- oriole, raven -->
   <include name="snippets/raviole.xml" />
   <project name="CalyxOS/device_google_raviole-kernel" path="device/google/raviole-kernel" remote="gitlab" clone-depth="1" revision="android12L" />
-  <!-- barbet -->
-  <include name="snippets/barbet.xml" />
-  <project name="CalyxOS/device_google_barbet-kernel" path="device/google/barbet-kernel" remote="gitlab" clone-depth="1" revision="android12L" />
-  <!-- redfin, bramble -->
+  <!-- redfin, bramble, barbet -->
   <include name="snippets/redbull.xml" />
-  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" revision="android12L" />
+  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" />
   <!-- coral, flame, sunfish -->
   <include name="snippets/msm-4.14.xml" />
   <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" />
