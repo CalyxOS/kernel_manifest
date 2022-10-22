@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e37427b2_b63bbaec",
+        "filename": "snippets/gs201.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2022-10-22T17:54:52Z",
+      "side": 1,
+      "message": "Fix this",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 136
+      },
+      "revId": "d67ce5b07c2c2fc8696c9ed6ebcf6d538db6ba22",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
