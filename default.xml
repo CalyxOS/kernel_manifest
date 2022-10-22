@@ -12,7 +12,7 @@
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android13" />
-  <default revision="refs/tags/android-12.1.0_r0.34"
+  <default revision="refs/tags/android-13.0.0_r0.32"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
@@ -20,23 +20,50 @@
   <project path="manifest" name="CalyxOS/kernel_manifest" remote="gitlab" />
 
   <!-- Calyx forks -->
-  <project path="build" name="CalyxOS/kernel_build" remote="gitlab" />
-  <project path="calyx/scripts" name="CalyxOS/scripts" remote="gitlab" >
+  <project path="build/kernel" name="CalyxOS/kernel_build" groups="partner" remote="gitlab">
+    <linkfile dest="tools/bazel" src="kleaf/bazel.sh" />
+    <linkfile dest="WORKSPACE" src="kleaf/bazel.WORKSPACE" />
+    <linkfile dest="build/build.sh" src="build.sh" />
+    <linkfile dest="build/build_abi.sh" src="build_abi.sh" />
+    <linkfile dest="build/build_test.sh" src="build_test.sh" />
+    <linkfile dest="build/build_utils.sh" src="build_utils.sh" />
+    <linkfile dest="build/BUILD.bazel" src="BUILD.bazel" />
+    <linkfile dest="build/build-tools/path" src="build-tools/path" />
+    <linkfile dest="build/config.sh" src="config.sh" />
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+    <linkfile dest="build/_setup_env.sh" src="_setup_env.sh" />
+    <linkfile dest="build/multi-switcher.sh" src="multi-switcher.sh" />
+    <linkfile dest="build/kleaf" src="kleaf" />
+    <linkfile dest="build/abi" src="abi" />
+    <linkfile dest="build/static_analysis" src="static_analysis" />
+  </project>
+  <project path="calyx/scripts" name="CalyxOS/scripts" remote="gitlab">
     <linkfile dest="build_kernel.sh" src="kernel/build_kernel.sh" />
     <linkfile dest="build_kernels.sh" src="kernel/build_kernels.sh" />
   </project>
-  <project path="prebuilts/boot-artifacts" name="CalyxOS/platform_prebuilts_boot-artifacts" remote="gitlab" revision="android12L" />
-  <project path="prebuilts/gas/linux-x86" name="CalyxOS/platform_prebuilts_gas_linux-x86" clone-depth="1" remote="gitlab" revision="android12L" />
+  <project path="prebuilts/boot-artifacts" name="CalyxOS/platform_prebuilts_boot-artifacts" remote="gitlab" />
 
   <!-- Common -->
-  <project path="prebuilts-master/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="partner" />
-  <project path="prebuilts-master/misc" name="CalyxOS/platform_prebuilts_misc" groups="partner" remote="gitlab" revision="android12L" />
-  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" groups="partner" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" revision="refs/tags/android-12.1.0_r0.35" groups="partner" />
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="partner" />
+  <project path="build/bazel_common_rules" name="platform/build/bazel_common_rules" groups="partner" />
+  <project path="external/bazel-skylib" name="platform/external/bazel-skylib" groups="partner" />
+  <project path="external/stardoc" name="platform/external/stardoc" groups="partner" />
+  <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" clone-depth="1" groups="partner" />
+  <project path="prebuilts/build-tools" name="platform/prebuilts/build-tools" clone-depth="1" groups="partner">
+    <linkfile dest="build/prebuilts/build-tools" src="." />
+  </project>
+  <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" groups="partner" />
+  <project path="prebuilts/gas/linux-x86" name="platform/prebuilts/gas/linux-x86" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1" groups="partner" />
+  <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" clone-depth="1" groups="partner" />
+  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" groups="partner">
+    <linkfile dest="build/prebuilts/kernel-build-tools" src="." />
+  </project>
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" clone-depth="1" groups="partner" />
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" />
+
+  <!-- Legacy common -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.18" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.18" />
 
   <!-- bluejay -->
   <include name="snippets/bluejay.xml" />
