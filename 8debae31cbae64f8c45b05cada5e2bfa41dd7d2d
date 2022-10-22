@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f72613b7_24556992",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-22T02:01:55Z",
+      "side": 1,
+      "message": "I suspect this will be biggest issue, handling them together.\n\nWe should be able to get the kernels to build in general otherwise.\n\nOne idea could be to move everything down one subdir and just duplicate, but that won\u0027t work well with forks 😞\n\nWe\u0027ll see.",
+      "revId": "8debae31cbae64f8c45b05cada5e2bfa41dd7d2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ca35400_b23e974b",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-22T02:01:55Z",
+      "side": 1,
+      "message": "Need to figure out what to push here, and how to deal with qcom build.sh vs gs bazel kleaf",
+      "revId": "8debae31cbae64f8c45b05cada5e2bfa41dd7d2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
