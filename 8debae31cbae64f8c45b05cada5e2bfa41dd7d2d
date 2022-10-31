@@ -33,6 +33,24 @@
       "message": "Need to figure out what to push here, and how to deal with qcom build.sh vs gs bazel kleaf",
       "revId": "8debae31cbae64f8c45b05cada5e2bfa41dd7d2d",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fcdee6f_573deee9",
+        "filename": "default.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-10-31T18:36:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ca35400_b23e974b",
+      "revId": "8debae31cbae64f8c45b05cada5e2bfa41dd7d2d",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
