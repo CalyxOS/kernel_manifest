@@ -34,6 +34,24 @@
       "parentUuid": "16ba0648_bf50ac0d",
       "revId": "899d69d203574732acafd4d70c75b4cf1e426210",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbed90b4_4842f94d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-10T13:28:28Z",
+      "side": 1,
+      "message": "We can setup a separate kernel fork as \u0027kernel_common_gki-5.10\u0027",
+      "parentUuid": "57841eab_ad9efd5a",
+      "revId": "899d69d203574732acafd4d70c75b4cf1e426210",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
