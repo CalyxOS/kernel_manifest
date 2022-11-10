@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- android-gs-pantah-5.10-android13-d1 -->
-  <project path="gs201/aosp" name="CalyxOS/kernel_google_gs201" groups="partner" remote="gitlab" revision="6522bf85d2629d73056cc2c6d7d1c674bb831507" />
+  <project path="gs201/aosp" name="kernel/common" groups="partner" revision="refs/tags/ASB-2022-11-01_13-5.10" />
   <project path="gs201/private/gs-google" name="CalyxOS/kernel_google_gs201" groups="partner" remote="gitlab" />
   <project path="gs201/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-13.0.0_r0.45" />
   <project path="gs201/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" revision="refs/tags/android-13.0.0_r0.45" />

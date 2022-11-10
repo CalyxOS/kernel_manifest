@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- android-gs-raviole-5.10-android13 and android-gs-bluejay-5.10-android13 -->
-  <project path="gs101/aosp" name="CalyxOS/kernel_google_gs101" groups="partner" remote="gitlab" revision="f0fe4f7680610ee4602692a0f2d378030396b0f8" />
+  <project path="gs101/aosp" name="kernel/common" groups="partner" revision="refs/tags/ASB-2022-11-01_13-5.10" />
   <project path="gs101/private/gs-google" name="CalyxOS/kernel_google_gs101" groups="partner" remote="gitlab" />
   <project path="gs101/private/devices/google/bluejay" name="CalyxOS/kernel_devices_google_bluejay" groups="partner,bluejay" remote="gitlab">
     <linkfile dest="gs101/private/gs-google/arch/arm64/boot/dts/google/devices/bluejay" src="dts" />
