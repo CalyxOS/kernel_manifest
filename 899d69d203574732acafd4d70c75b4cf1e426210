@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16ba0648_bf50ac0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-10T11:04:38Z",
+      "side": 1,
+      "message": "We could fetch it to a common patch such as gki-5.10 but then it\u0027d require further script changes in each private gs-google kernel.",
+      "revId": "899d69d203574732acafd4d70c75b4cf1e426210",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
