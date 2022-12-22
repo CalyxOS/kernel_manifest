@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- android-msm-sunfish-4.14-android13 and android-msm-coral-4.14-android13 -->
+  <!-- android-msm-sunfish-4.14-android13-qpr1 -->
   <project path="msm-4.14/private/msm-google" name="CalyxOS/kernel_google_msm-4.14" groups="partner" remote="gitlab" />
   <project path="msm-4.14/private/msm-google/techpack/audio" name="kernel/msm-extra" groups="partner" revision="refs/tags/android-13.0.0_r0.46" />
   <project path="msm-4.14/private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" revision="refs/tags/android-13.0.0_r0.46" />

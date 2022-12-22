@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- android-gs-pantah-5.10-android13-d1 -->
+  <!-- android-gs-pantah-5.10-android13-qpr1 -->
   <project path="gs201/aosp" name="kernel/common" groups="partner" revision="refs/tags/android-13.0.0_r0.50" />
   <project path="gs201/private/gs-google" name="CalyxOS/kernel_google_gs201" groups="partner" remote="gitlab" />
   <project path="gs201/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-13.0.0_r0.50" />

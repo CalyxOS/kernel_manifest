@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- android-msm-redbull-4.19-android13 -->
+  <!-- android-msm-redbull-4.19-android13-qpr1 -->
   <project path="redbull/private/msm-google" name="CalyxOS/kernel_google_redbull" groups="partner" remote="gitlab" />
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor" name="kernel/msm-extra/devicetree" groups="partner" revision="refs/tags/android-13.0.0_r0.47" />
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor/qcom/camera" name="kernel/msm-extra/camera-devicetree" groups="partner" revision="refs/tags/android-13.0.0_r0.47" />
