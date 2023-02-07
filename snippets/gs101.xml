@@ -2,31 +2,31 @@
 <manifest>
 
   <!-- android-gs-bluejay-5.10-android13-qpr1 -->
-  <project path="gs101/aosp" name="kernel/common" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="gs101/aosp" name="kernel/common" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
   <project path="gs101/private/gs-google" name="CalyxOS/kernel_google_gs101" groups="partner" remote="gitlab" />
   <project path="gs101/private/devices/google/bluejay" name="CalyxOS/kernel_devices_google_bluejay" groups="partner,bluejay" remote="gitlab">
     <linkfile dest="gs101/private/gs-google/arch/arm64/boot/dts/google/devices/bluejay" src="dts" />
   </project>
-  <project path="gs101/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/display" name="kernel/google-modules/display" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/fingerprint/goodix" name="kernel/google-modules/fingerprint/goodix" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/uwb" name="kernel/google-modules/uwb" groups="uwb" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="partner" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/kernel/configs" name="kernel/configs" revision="refs/tags/android-13.0.0_r0.54" />
-  <project path="gs101/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="refs/tags/android-13.0.0_r0.54" />
+  <project path="gs101/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/aoc" name="kernel/google-modules/aoc" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/bms" name="kernel/google-modules/bms" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/display" name="kernel/google-modules/display" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/fingerprint/goodix" name="kernel/google-modules/fingerprint/goodix" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/touch/fts" name="kernel/google-modules/touch/fts_touch" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/touch/sec" name="kernel/google-modules/touch/sec_touch" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/uwb" name="kernel/google-modules/uwb" groups="uwb" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/nfc" name="kernel/google-modules/nfc" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/private/google-modules/wlan/bcmdhd4389" name="kernel/google-modules/wlan/bcmdhd/bcm4389" groups="partner" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/kernel/configs" name="kernel/configs" revision="refs/tags/android-13.0.0_r0.59" />
+  <project path="gs101/common-modules/virtual-device" name="kernel/common-modules/virtual-device" revision="refs/tags/android-13.0.0_r0.59" />
 
 </manifest>
