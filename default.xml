@@ -62,8 +62,8 @@
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" />
 
   <!-- Legacy common -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.57" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.57" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-t-qpr2-beta-3.2_r0.3" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-t-qpr2-beta-3.2_r0.3" />
 
   <!-- cheetah, panther -->
   <include name="snippets/gs201.xml" />
