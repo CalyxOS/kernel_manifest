@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- android-msm-bonito-4.9-android12, and android-msm-crosshatch-4.9-android12 (no longer updated) -->
-  <project path="msm-4.9/private/msm-google" name="CalyxOS/kernel_google_msm-4.9" remote="gitlab" />
+  <project path="msm-4.9/private/msm-google" name="CalyxOS/kernel_google_msm-4.9" remote="gitlab" revision="refs/tags/4.7.2-kernel" />
   <project path="msm-4.9/private/msm-google/techpack/audio" name="kernel/msm-extra" revision="refs/tags/android-12.1.0_r0.23" />
   <project path="msm-4.9/private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" revision="refs/tags/android-12.1.0_r0.23" />
   <project path="msm-4.9/private/msm-google-modules/wlan/qcacld-3.0" name="CalyxOS/kernel_google_msm-4.9_drivers_staging_qcacld-3.0" remote="gitlab" />
