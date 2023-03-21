@@ -3,8 +3,8 @@
 
   <!-- android-gs-bluejay-5.10-android13-qpr1 -->
   <project path="gs101/aosp" name="kernel/common" groups="partner" revision="refs/tags/android-13.0.0_r0.64" />
-  <project path="gs101/private/gs-google" name="CalyxOS/kernel_google_gs101" groups="partner" remote="gitlab" />
-  <project path="gs101/private/devices/google/bluejay" name="CalyxOS/kernel_devices_google_bluejay" groups="partner,bluejay" remote="gitlab">
+  <project path="gs101/private/gs-google" name="CalyxOS/kernel_google_gs101" groups="partner" remote="gitlab" revision="refs/tags/4.7.4-kernel" />
+  <project path="gs101/private/devices/google/bluejay" name="CalyxOS/kernel_devices_google_bluejay" groups="partner,bluejay" remote="gitlab" revision="refs/tags/4.7.4-kernel">
     <linkfile dest="gs101/private/gs-google/arch/arm64/boot/dts/google/devices/bluejay" src="dts" />
   </project>
   <project path="gs101/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-13.0.0_r0.64" />
