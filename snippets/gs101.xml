@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- android-gs-bluejay-5.10-android13-qpr2 -->
-  <project path="gs101/aosp" name="kernel/common" groups="partner" revision="refs/tags/android-13.0.0_r0.69" />
   <project path="gs101/private/gs-google" name="CalyxOS/kernel_google_gs101" groups="partner" remote="gitlab" />
   <project path="gs101/private/devices/google/bluejay" name="CalyxOS/kernel_devices_google_bluejay" groups="partner,bluejay" remote="gitlab">
     <linkfile dest="gs101/private/gs-google/arch/arm64/boot/dts/google/devices/bluejay" src="dts" />
