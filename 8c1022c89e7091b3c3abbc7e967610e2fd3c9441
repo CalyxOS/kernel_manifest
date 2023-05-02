@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1dc666c_45f08bb8",
+        "filename": "snippets/gki-5.10.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-05-02T19:00:25Z",
+      "side": 1,
+      "message": "I don\u0027t know if this\u0027ll even work but figured might as well give it a try.\n\nWe don\u0027t need to fork it now, but better to have that ready when we do want or need to make changes.",
+      "revId": "8c1022c89e7091b3c3abbc7e967610e2fd3c9441",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
