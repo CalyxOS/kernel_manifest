@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="gki-5.10" name="CalyxOS/kernel_common_gki-5.10" groups="partner" remote="gitlab">
+    <linkfile dest="gs101/aosp" src="." />
+    <linkfile dest="gs201/aosp" src="." />
+  </project>
+
+</manifest>
