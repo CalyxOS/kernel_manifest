@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a7c85a6_f12c8e4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-06T17:42:48Z",
+      "side": 1,
+      "message": "17573: Add git-review configuration | https://review.calyxos.org/c/CalyxOS/kernel_google_msm-4.9_techpack_audio/+/17573",
+      "revId": "8fa44aa7433002e2ddb1bf428d8303c8029772ae",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
