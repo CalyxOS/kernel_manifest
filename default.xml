@@ -12,7 +12,7 @@
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
            revision="refs/heads/android13" />
-  <default revision="refs/tags/android-13.0.0_r0.75"
+  <default revision="refs/tags/android-13.0.0_r0.84"
            remote="aosp"
            sync-j="4"
            sync-c="true" />
@@ -62,8 +62,8 @@
   <project path="tools/mkbootimg" name="platform/system/tools/mkbootimg" groups="partner" />
 
   <!-- Legacy common -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.72" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.72" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.81" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.81" />
 
   <!-- cheetah, panther -->
   <include name="snippets/gs201.xml" />
