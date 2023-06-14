@@ -4,7 +4,7 @@
   <!-- android-gs-pantah-5.10-android13-qpr2 -->
   <project path="gs201/aosp" name="kernel/common" groups="partner" revision="refs/tags/android-13.0.0_r0.85" />
   <project path="gs201/private/gs-google" name="CalyxOS/kernel_google_gs201" groups="partner" remote="gitlab" />
-  <project path="gs201/private/devices/google/lynx" name="kernel/devices/google/lynx" groups="partner,lynx" revision="refs/tags/android-13.0.0_r0.85">
+  <project path="gs201/private/devices/google/lynx" name="CalyxOS/kernel_devices_google_lynx" groups="partner,lynx" remote="gitlab">
     <linkfile dest="gs201/private/gs-google/arch/arm64/boot/dts/google/devices/lynx" src="dts" />
   </project>
   <project path="gs201/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-13.0.0_r0.85" />
