@@ -7,7 +7,7 @@
   <project path="gs201/private/devices/google/lynx" name="CalyxOS/kernel_devices_google_lynx" groups="partner,lynx" remote="gitlab">
     <linkfile dest="gs201/private/gs-google/arch/arm64/boot/dts/google/devices/lynx" src="dts" />
   </project>
-  <project path="gs201/private/devices/google/tangorpro" name="kernel/devices/google/tangorpro" groups="partner,tangorpro" revision="refs/tags/android-13.0.0_r0.92" >
+  <project path="gs201/private/devices/google/tangorpro" name="CalyxOS/kernel_devices_google_tangorpro" groups="partner,tangorpro" remote="gitlab">
     <linkfile dest="gs201/private/gs-google/arch/arm64/boot/dts/google/devices/tangorpro" src="dts" />
   </project>
   <project path="gs201/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" revision="refs/tags/android-13.0.0_r0.92" />
