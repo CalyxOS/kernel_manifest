@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1aa90c1_f184e009",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-20T18:59:07Z",
+      "side": 1,
+      "message": "https://review.calyxos.org/c/CalyxOS/kernel_devices_google_tangorpro/+/18003 Add git-review configuration",
+      "revId": "31b884085298725b29da3ce269cd55dce2be9014",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
