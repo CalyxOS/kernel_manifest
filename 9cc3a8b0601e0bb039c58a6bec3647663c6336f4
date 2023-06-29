@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9709b52_0a4de788",
+        "filename": "snippets/gs201.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-06-29T15:46:33Z",
+      "side": 1,
+      "message": "I\u0027d be ok leaving this at .92 as well, shouldn\u0027t make a difference in practice for us either way.",
+      "revId": "9cc3a8b0601e0bb039c58a6bec3647663c6336f4",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
