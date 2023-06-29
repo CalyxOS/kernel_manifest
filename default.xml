@@ -65,8 +65,9 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.81" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" clone-depth="1" groups="partner" revision="refs/tags/android-13.0.0_r0.81" />
 
-  <!-- cheetah, panther, lynx, tangorpro -->
+  <!-- cheetah, panther, lynx, tangorpro, felix -->
   <include name="snippets/gs201.xml" />
+  <project name="CalyxOS/device_google_felix-kernel" path="device/google/felix-kernel" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_lynx-kernel" path="device/google/lynx-kernel" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_pantah-kernel" path="device/google/pantah-kernel" remote="gitlab" clone-depth="1" />
   <project name="CalyxOS/device_google_tangorpro-kernel" path="device/google/tangorpro-kernel" remote="gitlab" clone-depth="1" />
