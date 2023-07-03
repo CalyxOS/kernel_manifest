@@ -7,11 +7,11 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
-           revision="refs/tags/4.10.3-kernel" />
+           revision="refs/tags/4.10.3-2-kernel" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
-           revision="refs/tags/4.10.3-kernel" />
+           revision="refs/tags/4.10.3-2-kernel" />
   <default revision="refs/tags/android-13.0.0_r0.84"
            remote="aosp"
            sync-j="4"
