@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36708290_b0c97a20",
+        "filename": "snippets/gs201.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-05T22:39:55Z",
+      "side": 1,
+      "message": "Will need to merge if there\u0027s changes",
+      "revId": "9421e8f599873722d847ac7e69b6073f393ad4a3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd3e08c3_f271179b",
+        "filename": "snippets/gs201.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-05T22:39:55Z",
+      "side": 1,
+      "message": "TODO",
+      "revId": "9421e8f599873722d847ac7e69b6073f393ad4a3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
