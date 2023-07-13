@@ -34,6 +34,24 @@
       "parentUuid": "609a2386_8e8027fb",
       "revId": "abbeac36dc5c19b6aab8dde73294bc831038600a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ac9b323_8b66daf3",
+        "filename": "snippets/gs201.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-13T16:57:03Z",
+      "side": 1,
+      "message": "I see, empty repository.\n\nWell, maybe add it as a comment? just so every time we compare to check upstream manifest we don\u0027t have to remember this or look it up again.\n\nDoesn\u0027t hurt having an empty repo either just to match upstream manifest.",
+      "parentUuid": "e63304cf_e2d55b2d",
+      "revId": "abbeac36dc5c19b6aab8dde73294bc831038600a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
