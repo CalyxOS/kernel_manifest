@@ -52,6 +52,24 @@
       "parentUuid": "e63304cf_e2d55b2d",
       "revId": "abbeac36dc5c19b6aab8dde73294bc831038600a",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52ede118_b806370e",
+        "filename": "snippets/gs201.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-07-13T17:38:10Z",
+      "side": 1,
+      "message": "Meh, can sync upstream in a follow up if we want to.",
+      "parentUuid": "8ac9b323_8b66daf3",
+      "revId": "abbeac36dc5c19b6aab8dde73294bc831038600a",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
