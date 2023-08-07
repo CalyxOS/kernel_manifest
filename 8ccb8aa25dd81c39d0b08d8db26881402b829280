@@ -16,6 +16,23 @@
       "message": "felix and tangorpro tags not available yet",
       "revId": "8ccb8aa25dd81c39d0b08d8db26881402b829280",
       "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54661e4e_d778587a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-08-07T23:50:36Z",
+      "side": 1,
+      "message": "felix and tangorpro tags not available yet",
+      "revId": "8ccb8aa25dd81c39d0b08d8db26881402b829280",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
     }
   ]
 }
