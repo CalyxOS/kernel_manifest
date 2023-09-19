@@ -27,7 +27,7 @@
   <project path="gs201/private/google-modules/edgetpu/abrolhos" name="kernel/google-modules/edgetpu/abrolhos" groups="partner" revision="refs/tags/android-13.0.0_r0.117" />
   <project path="gs201/private/google-modules/edgetpu/janeiro" name="kernel/google-modules/edgetpu/janeiro" groups="partner" revision="refs/tags/android-13.0.0_r0.117" />
   <project path="gs201/private/google-modules/fingerprint/fpc" name="kernel/google-modules/fingerprint/fpc" groups="partner" revision="refs/tags/android-13.0.0_r0.117" />
-  <project path="gs201/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="partner" revision="refs/tags/android-13.0.0_r0.117" />
+  <project path="gs201/private/google-modules/gpu" name="kernel/google-modules/gpu" groups="partner" revision="refs/tags/android-u-beta-5.3_r0.1" />
   <project path="gs201/private/google-modules/gxp/gs201" name="kernel/google-modules/gxp/gs201" groups="partner" revision="refs/tags/android-13.0.0_r0.117" />
   <project path="gs201/private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" revision="refs/tags/android-13.0.0_r0.117" />
   <project path="gs201/private/google-modules/misc" name="kernel/google-modules/misc" groups="partner" revision="refs/tags/android-13.0.0_r0.117" />
