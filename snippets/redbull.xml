@@ -6,7 +6,7 @@
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor" name="kernel/msm-extra/devicetree" groups="partner" revision="refs/tags/android-13.0.0_r0.122" />
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor/qcom/camera" name="kernel/msm-extra/camera-devicetree" groups="partner" revision="refs/tags/android-13.0.0_r0.122" />
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor/qcom/display" name="kernel/msm-extra/display-devicetree" groups="partner" revision="refs/tags/android-13.0.0_r0.122" />
-  <project path="redbull/private/msm-google/techpack/audio" name="kernel/msm-extra" groups="partner" revision="refs/tags/android-13.0.0_r0.122" />
+  <project path="redbull/private/msm-google/techpack/audio" name="CalyxOS/kernel_google_redbull_techpack_audio" groups="partner" remote="gitlab" />
   <project path="redbull/private/msm-google/techpack/camera" name="kernel/msm-extra/camera-kernel" groups="partner" revision="refs/tags/android-13.0.0_r0.122" />
   <project path="redbull/private/msm-google/techpack/dataipa" name="kernel/msm-extra/dataipa" groups="partner" revision="refs/tags/android-13.0.0_r0.122" />
   <project path="redbull/private/msm-google/techpack/display" name="kernel/msm-extra/display-drivers" groups="partner" revision="refs/tags/android-13.0.0_r0.122" />

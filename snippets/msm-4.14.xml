@@ -3,7 +3,7 @@
 
   <!-- android-msm-sunfish-4.14-android13-qpr2 -->
   <project path="msm-4.14/private/msm-google" name="CalyxOS/kernel_google_msm-4.14" groups="partner" remote="gitlab" />
-  <project path="msm-4.14/private/msm-google/techpack/audio" name="kernel/msm-extra" groups="partner" revision="refs/tags/android-13.0.0_r0.110" />
+  <project path="msm-4.14/private/msm-google/techpack/audio" name="CalyxOS/kernel_google_msm-4.14_techpack_audio" groups="partner" remote="gitlab" />
   <project path="msm-4.14/private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" revision="refs/tags/android-13.0.0_r0.110" />
   <project path="msm-4.14/private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" groups="partner" revision="refs/tags/android-13.0.0_r0.110" />
   <project path="msm-4.14/private/msm-google-modules/wlan/qcacld-3.0" name="CalyxOS/kernel_google_msm-4.14_drivers_staging_qcacld-3.0" remote="gitlab" groups="partner" />
