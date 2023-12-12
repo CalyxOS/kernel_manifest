@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6589a14d_5ad94ece",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000004
+      },
+      "writtenOn": "2023-12-12T22:32:46Z",
+      "side": 1,
+      "message": "Not the best solution but these devices aren\u0027t going back to 13",
+      "revId": "0d55c4d19ec9c8fa0c4078c7a3662be58a43efb3",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
