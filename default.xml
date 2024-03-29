@@ -67,7 +67,7 @@
 
   <!-- coral, flame, sunfish -->
   <include name="snippets/msm-4.14.xml" />
-  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" />
+  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" revision="android14" />
   <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" revision="android14" />
   <!-- crosshatch, blueline, bonito, sargo -->
   <include name="snippets/msm-4.9.xml" />
