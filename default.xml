@@ -7,11 +7,11 @@
   <remote  name="gitlab"
            fetch=".."
            review="review.calyxos.org"
-           revision="refs/heads/android13" />
+           revision="refs/heads/refs/tags/5.12.1-kernel" />
   <remote  name="gitlab-priv"
            fetch="ssh://git@gitlab.com"
            review="review.calyxos.org"
-           revision="refs/heads/android13" />
+           revision="refs/heads/refs/tags/5.12.1-kernel" />
   <default revision="refs/tags/android-13.0.0_r0.127"
            remote="aosp"
            sync-j="4"
@@ -67,14 +67,14 @@
 
   <!-- redfin, bramble, barbet -->
   <include name="snippets/redbull.xml" />
-  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" revision="android14" />
+  <project name="CalyxOS/device_google_redbull-kernel" path="device/google/redbull-kernel" remote="gitlab" clone-depth="1" revision="refs/tags/5.12.1-kernel" />
   <!-- coral, flame, sunfish -->
   <include name="snippets/msm-4.14.xml" />
-  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" revision="android14" />
-  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" revision="android14" />
+  <project name="CalyxOS/device_google_coral-kernel" path="device/google/coral-kernel" remote="gitlab" clone-depth="1" revision="refs/tags/5.12.1-kernel" />
+  <project name="CalyxOS/device_google_sunfish-kernel" path="device/google/sunfish-kernel" remote="gitlab" clone-depth="1" revision="refs/tags/5.12.1-kernel" />
   <!-- crosshatch, blueline, bonito, sargo -->
   <include name="snippets/msm-4.9.xml" />
-  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" revision="android14" />
-  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" remote="gitlab" clone-depth="1" revision="android14" />
+  <project name="CalyxOS/device_google_crosshatch-kernel" path="device/google/crosshatch-kernel" remote="gitlab" clone-depth="1" revision="refs/tags/5.12.1-kernel" />
+  <project name="CalyxOS/device_google_bonito-kernel" path="device/google/bonito-kernel" remote="gitlab" clone-depth="1" revision="refs/tags/5.12.1-kernel" />
 
 </manifest>
