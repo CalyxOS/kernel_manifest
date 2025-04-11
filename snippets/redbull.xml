@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- android-msm-redbull-4.19-android14-qpr3 -->
-  <project path="redbull/private/msm-google" name="CalyxOS/kernel_google_redbull" groups="partner" remote="gitlab" revision="android14" />
+  <!-- android-msm-redbull-4.19-refs/tags/6.6.20-kernel-qpr3 -->
+  <project path="redbull/private/msm-google" name="CalyxOS/kernel_google_redbull" groups="partner" remote="gitlab" revision="refs/tags/6.6.20-kernel" />
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor" name="kernel/msm-extra/devicetree" groups="partner" revision="refs/tags/android-14.0.0_r0.111" />
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor/qcom/camera" name="kernel/msm-extra/camera-devicetree" groups="partner" revision="refs/tags/android-14.0.0_r0.111" />
   <project path="redbull/private/msm-google/arch/arm64/boot/dts/vendor/qcom/display" name="kernel/msm-extra/display-devicetree" groups="partner" revision="refs/tags/android-14.0.0_r0.111" />
-  <project path="redbull/private/msm-google/techpack/audio" name="CalyxOS/kernel_google_redbull_techpack_audio" groups="partner" remote="gitlab" revision="android14" />
-  <project path="redbull/private/msm-google/techpack/camera" name="CalyxOS/kernel_google_redbull_techpack_camera" groups="partner" remote="gitlab" revision="android14" />
+  <project path="redbull/private/msm-google/techpack/audio" name="CalyxOS/kernel_google_redbull_techpack_audio" groups="partner" remote="gitlab" revision="refs/tags/6.6.20-kernel" />
+  <project path="redbull/private/msm-google/techpack/camera" name="CalyxOS/kernel_google_redbull_techpack_camera" groups="partner" remote="gitlab" revision="refs/tags/6.6.20-kernel" />
   <project path="redbull/private/msm-google/techpack/dataipa" name="kernel/msm-extra/dataipa" groups="partner" revision="refs/tags/android-14.0.0_r0.111" />
-  <project path="redbull/private/msm-google/techpack/display" name="CalyxOS/kernel_google_redbull_techpack_display" groups="partner" remote="gitlab" revision="android14" />
+  <project path="redbull/private/msm-google/techpack/display" name="CalyxOS/kernel_google_redbull_techpack_display" groups="partner" remote="gitlab" revision="refs/tags/6.6.20-kernel" />
   <project path="redbull/private/msm-google/techpack/video" name="kernel/msm-extra/video-driver" groups="partner" revision="refs/tags/android-14.0.0_r0.111" />
   <project path="redbull/private/msm-google-modules/data-kernel" name="kernel/msm-modules/data-kernel" groups="partner" revision="refs/tags/android-14.0.0_r0.111" />
-  <project path="redbull/private/msm-google-modules/wlan/qca-wifi-host-cmn" name="CalyxOS/kernel_google_redbull_drivers_staging_qca-wfi-host-cmn" groups="partner" remote="gitlab" revision="android14" />
-  <project path="redbull/private/msm-google-modules/wlan/qcacld-3.0" name="CalyxOS/kernel_google_redbull_drivers_staging_qcacld-3.0" groups="partner" remote="gitlab" revision="android14" />
+  <project path="redbull/private/msm-google-modules/wlan/qca-wifi-host-cmn" name="CalyxOS/kernel_google_redbull_drivers_staging_qca-wfi-host-cmn" groups="partner" remote="gitlab" revision="refs/tags/6.6.20-kernel" />
+  <project path="redbull/private/msm-google-modules/wlan/qcacld-3.0" name="CalyxOS/kernel_google_redbull_drivers_staging_qcacld-3.0" groups="partner" remote="gitlab" revision="refs/tags/6.6.20-kernel" />
   <project path="redbull/private/msm-google-modules/wlan/fw-api" name="kernel/msm-modules/wlan-fw-api" groups="partner" revision="refs/tags/android-14.0.0_r0.111" />
   <project path="redbull/private/msm-google-modules/touch/fts" name="kernel/msm-modules/fts_touch" groups="partner" revision="refs/tags/android-14.0.0_r0.111" />
   <project path="redbull/private/msm-google-modules/touch/sec" name="kernel/msm-modules/sec_touch" groups="partner" revision="refs/tags/android-14.0.0_r0.111" />
