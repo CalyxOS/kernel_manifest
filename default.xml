@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com/"/>
+  <remote name="gitlab" fetch=".." review="review.calyxos.org" revision="refs/heads/staging/android16"/>
   <default revision="refs/tags/android-16.0.0_r0.0" remote="aosp" sync-j="4" sync-c="true"/>
   <project path="aosp" name="kernel/common" groups="partner">
     <linkfile dest="common/build.config.constants" src="build.config.constants"/>
@@ -149,4 +150,27 @@
   <project path="prebuilts/bazel/linux-x86_64" name="platform/prebuilts/bazel/linux-x86_64" groups="partner" clone-depth="1"/>
   <project path="prebuilts/jdk/jdk11" name="platform/prebuilts/jdk/jdk11" groups="partner" clone-depth="1"/>
   <project path="prebuilts/ndk-r23" name="toolchain/prebuilts/ndk/r23" groups="partner" clone-depth="1"/>
+
+  <!-- CalyxOS additions -->
+  <project path="manifest" name="CalyxOS/kernel_manifest" remote="gitlab"/>
+  <project path="calyx/scripts" name="CalyxOS/scripts" remote="gitlab">
+    <linkfile dest="build_kernel.sh" src="kernel/build_kernel.sh"/>
+    <linkfile dest="build_kernels.sh" src="kernel/build_kernels.sh"/>
+  </project>
+
+  <!-- oriole, raven, bluejay -->
+  <project path="device/google/raviole-kernels" name="CalyxOS/device_google_raviole-kernels" remote="gitlab" clone-depth="1"/>
+  <project path="device/google/bluejay-kernels" name="CalyxOS/device_google_bluejay-kernels" remote="gitlab" clone-depth="1"/>
+  <!-- panther, cheetah, lynx, tangorpro, felix -->
+  <project path="device/google/pantah-kernels" name="CalyxOS/device_google_pantah-kernels" remote="gitlab" clone-depth="1"/>
+  <project path="device/google/lynx-kernels" name="CalyxOS/device_google_lynx-kernels" remote="gitlab" clone-depth="1"/>
+  <project path="device/google/tangorpro-kernels" name="CalyxOS/device_google_tangorpro-kernels" remote="gitlab" clone-depth="1"/>
+  <project path="device/google/felix-kernels" name="CalyxOS/device_google_felix-kernels" remote="gitlab" clone-depth="1"/>
+  <!-- shiba, husky, akita -->
+  <project path="device/google/shusky-kernels" name="CalyxOS/device_google_shusky-kernels" remote="gitlab" clone-depth="1"/>
+  <project path="device/google/akita-kernels" name="CalyxOS/device_google_akita-kernels" remote="gitlab" clone-depth="1"/>
+  <!-- tokay, caiman, komodo, comet, tegu -->
+  <project path="device/google/caimito-kernels" name="CalyxOS/device_google_caimito-kernels" remote="gitlab" clone-depth="1"/>
+  <project path="device/google/comet-kernels" name="CalyxOS/device_google_comet-kernels" remote="gitlab" clone-depth="1"/>
+  <project path="device/google/tegu-kernels" name="CalyxOS/device_google_tegu-kernels" remote="gitlab" clone-depth="1"/>
 </manifest>
