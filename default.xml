@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com/"/>
-  <default revision="refs/tags/android-16.0.0_r0.0" remote="aosp" sync-j="4"/>
+  <default revision="refs/tags/android-16.0.0_r0.0" remote="aosp" sync-j="4" sync-c="true"/>
   <project path="aosp" name="kernel/common" groups="partner">
     <linkfile dest="common/build.config.constants" src="build.config.constants"/>
     <linkfile dest="common/modules.bzl" src="modules.bzl"/>
