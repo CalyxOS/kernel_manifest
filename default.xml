@@ -21,7 +21,7 @@
     <linkfile dest="build_raviole.sh" src="build_raviole.sh"/>
     <linkfile dest=".d13.bazelrc" src="device.bazelrc"/>
   </project>
-  <project path="private/devices/google/bluejay" name="kernel/devices/google/bluejay" groups="partner,bluejay">
+  <project path="private/devices/google/bluejay" name="CalyxOS/kernel_devices_google_bluejay" groups="partner,bluejay" remote="gitlab">
     <linkfile dest="build_bluejay.sh" src="build_bluejay.sh"/>
     <linkfile dest=".d14.bazelrc" src="device.bazelrc"/>
   </project>
@@ -78,7 +78,7 @@
   <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner"/>
   <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner"/>
   <project path="private/google-modules/bluetooth/qcom" name="kernel/google-modules/bluetooth/qcom" groups="partner"/>
-  <project path="private/google-modules/bms" name="kernel/google-modules/bms" groups="partner"/>
+  <project path="private/google-modules/bms" name="CalyxOS/kernel_google-modules_bms" groups="partner" remote="gitlab"/>
   <project path="private/google-modules/display/samsung" name="kernel/google-modules/display/samsung" groups="partner"/>
   <project path="private/google-modules/display/common" name="kernel/google-modules/display/common" groups="partner"/>
   <project path="private/google-modules/display/panels/caimito" name="kernel/google-modules/display/panels/caimito" groups="partner"/>
@@ -95,7 +95,7 @@
   <project path="private/google-modules/gxp/zuma" name="kernel/google-modules/gxp/zuma" groups="partner"/>
   <project path="private/google-modules/hdcp/samsung" name="kernel/google-modules/hdcp/samsung" groups="partner"/>
   <project path="private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner"/>
-  <project path="private/google-modules/misc" name="kernel/google-modules/misc" groups="partner"/>
+  <project path="private/google-modules/misc" name="CalyxOS/kernel_google-modules_misc" groups="partner" remote="gitlab"/>
   <project path="private/google-modules/perf" name="kernel/google-modules/perf" groups="partner"/>
   <project path="private/google-modules/power/mitigation" name="kernel/google-modules/power/mitigation" groups="partner"/>
   <project path="private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner"/>
