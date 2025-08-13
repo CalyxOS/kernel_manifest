@@ -29,7 +29,7 @@
     <linkfile dest="build_gs201.sh" src="build_gs201.sh"/>
     <linkfile dest=".c2.bazelrc" src="device.bazelrc"/>
   </project>
-  <project path="private/devices/google/pantah" name="kernel/devices/google/pantah" groups="partner,pantah">
+  <project path="private/devices/google/pantah" name="CalyxOS/kernel_devices_google_pantah" groups="partner,pantah" remote="gitlab">
     <linkfile dest="build_pantah.sh" src="build_pantah.sh"/>
     <linkfile dest=".d1.bazelrc" src="device.bazelrc"/>
   </project>
@@ -49,7 +49,7 @@
     <linkfile dest="build_zuma.sh" src="build_zuma.sh"/>
     <linkfile dest=".c3.bazelrc" src="device.bazelrc"/>
   </project>
-  <project path="private/devices/google/shusky" name="kernel/devices/google/shusky" groups="partner,shusky">
+  <project path="private/devices/google/shusky" name="CalyxOS/kernel_devices_google_shusky" groups="partner,shusky" remote="gitlab">
     <linkfile dest="build_shusky.sh" src="build_shusky.sh"/>
     <linkfile dest=".d4.bazelrc" src="device.bazelrc"/>
   </project>
@@ -100,7 +100,7 @@
   <project path="private/google-modules/power/mitigation" name="kernel/google-modules/power/mitigation" groups="partner"/>
   <project path="private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner"/>
   <project path="private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="partner"/>
-  <project path="private/google-modules/soc/gs" name="kernel/google-modules/soc/gs" groups="partner"/>
+  <project path="private/google-modules/soc/gs" name="CalyxOS/kernel_google-modules_soc_gs" groups="partner" remote="gitlab"/>
   <project path="private/google-modules/radio/samsung/s5300" name="kernel/google-modules/radio/samsung/s5300" groups="partner"/>
   <project path="private/google-modules/radio/samsung/s5400" name="kernel/google-modules/radio/samsung/s5400" groups="partner"/>
   <project path="private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="partner"/>
