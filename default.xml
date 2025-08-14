@@ -157,6 +157,7 @@
     <linkfile dest="build_kernel.sh" src="kernel/build_kernel.sh"/>
     <linkfile dest="build_kernels.sh" src="kernel/build_kernels.sh"/>
   </project>
+  <project path="vendor/calyx" name="CalyxOS/vendor_calyx" remote="gitlab"/>
 
   <!-- oriole, raven, bluejay -->
   <project path="device/google/raviole-kernels" name="CalyxOS/device_google_raviole-kernels" remote="gitlab" clone-depth="1"/>
